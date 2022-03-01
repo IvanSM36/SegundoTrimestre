@@ -11,7 +11,7 @@ public class BancoMain {
 		float saldoInicialAhorros = scan.nextFloat();
 		System.out.print("Ingrese tasa de interés: ");
 		float tasaAhorros = scan.nextFloat();
-		CuentaAhorros cuenta1 = new
+		CuentaAhorros cuenta1 = new //dd
 		CuentaAhorros(saldoInicialAhorros, tasaAhorros);
 		System.out.print("Ingresar cantidad a consignar: ");
 		float cantidadDepositar = scan.nextFloat();
