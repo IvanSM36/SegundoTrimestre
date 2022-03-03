@@ -46,5 +46,12 @@ public class Publicacion {
 		this.anioPublicacion = anioPublicacion;
 	}
 	
-
+	//Metodos
+	@Override
+	public String toString() {
+		return "Publicacion [isbn=" + isbn + ", titulo=" + titulo + ", anioPublicacion=" + anioPublicacion + "]";
+	}
+	
+	
+	
 }
