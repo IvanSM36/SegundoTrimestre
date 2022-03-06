@@ -16,7 +16,7 @@ public class Corredor {
 		public Corredor(String nombre, String apellido1, String apellido2, int edad, String sexo) {
 			this.nombre = nombre;
 			this.apellido1 = apellido1;
-			this.apellido2 = apellido2;
+			this.apellido2 = apellido2;//prueba
 			this.edad = edad;
 			this.sexo = sexo.toLowerCase();
 		}
