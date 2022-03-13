@@ -1,4 +1,4 @@
-package Tema9.ArrayList.Relacion2.Ejer01;
+package Tema9.ArrayList.Relacion2;
 
 import java.util.ArrayList;
 import java.util.Iterator;

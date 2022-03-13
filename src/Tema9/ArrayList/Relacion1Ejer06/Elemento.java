@@ -1,17 +1,23 @@
 package Tema9.ArrayList.Relacion1Ejer06;
 
 public class Elemento {
-	
+
 	// Atributos
 	protected String producto;
 	protected double precio;
 	protected int cantidad;
-	
+
 	// Constructores
 	public Elemento() {
 
 	}
-	
+
+	public Elemento(String producto, double precio, int cantidad) {
+		this.producto = producto;
+		this.precio = precio;
+		this.cantidad = cantidad;
+	}
+
 	// Getters and Setters
 
 	public String getProducto() {
@@ -39,5 +45,10 @@ public class Elemento {
 	}
 
 	// Metodos
-	
+	@Override
+	public String toString() {
+		return this.producto + " PVP: " + String.format("%.2f", this.precio) + " Unidades: " + this.cantidad
+				+ " Subtotal: " + String.format("%.2f", this.precio * this.cantidad);
+	}
+
 }
