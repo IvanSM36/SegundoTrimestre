@@ -17,5 +17,11 @@ public class Cuadrado extends Figura implements Lados{
     public int numLados() {
         return 4;
     }
+
+	@Override
+	public String toString() {
+		return "Cuadrado [lado=" + lado + "]";
+	}
+    
     
 }

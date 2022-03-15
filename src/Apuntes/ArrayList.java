@@ -41,18 +41,18 @@ public class ArrayList {
 		 *  
 		 */
 		
-		/*Para recorrer el arrayList
-		 *Con Iterator
-		 *System.out.println();
-		 *System.out.println("Contenido del ArrayList con iterador");
-		 *System.out.println("-------------------------------------");
-		 *Iterator<String> it = a.iterator();
-		 *while(it.hasNext()) {
-		 *	String nombre = it.next();
-		 *	System.out.println(nombre);
-		 *}
-		*System.out.println();
-		*/ 
+//		 Para recorrer el arrayList
+//		 Con Iterator
+//		 System.out.println();
+//		 System.out.println("Contenido del ArrayList con iterador");
+//		 System.out.println("-------------------------------------");
+//		 Iterator<String> it = a.iterator();
+//		 while(it.hasNext()) {
+//		 	String nombre = it.next();
+//		 	System.out.println(nombre);
+//		 }
+//	   	System.out.println();
+		 
 		
 		/*Con for each
 		 *System.out.println();

@@ -40,4 +40,11 @@ public class Figuras {
             }
         }
     }
+
+	@Override
+	public String toString() {
+		return "Figuras [lista=" + lista + "]";
+	}
+    
+    
 }

@@ -6,6 +6,7 @@ public class Instrumento {
 	protected String id;
 	protected double precio;
 	protected Tipo tipo;
+	
 	//CONTRUCTOR
 	Instrumento(String id, double precio, Tipo tipo){
 		this.id=id;
@@ -13,7 +14,7 @@ public class Instrumento {
 		this.tipo=tipo;
 	}
 	
-	//metodo get and set
+	//Getter and Setter
 	public String getId() {
 		return id;
 	}

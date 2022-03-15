@@ -30,7 +30,7 @@ public class Main {
 
 	    // MENÚ
 	    do {
-	      System.out.println("\n\nCOLECCIÓN DE DISCOS");
+	      System.out.println("\nCOLECCIÓN DE DISCOS");
 	      System.out.println("===================");
 	      System.out.println("1. Listado");
 	      System.out.println("2. Nuevo disco");

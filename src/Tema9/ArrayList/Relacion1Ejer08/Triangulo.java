@@ -19,5 +19,11 @@ public class Triangulo extends Figura implements Lados {
     public int numLados() {
         return 3;
     }
+
+	@Override
+	public String toString() {
+		return "Triangulo [base=" + base + ", altura=" + altura + "]";
+	}
+    
        
 }

@@ -51,6 +51,7 @@ public class Sucursal {
 	public void imprimir() {
 		System.out.println(misinstrumentos);
 	}
+	
 	//metodo get and set
 	public String getNombre() {
 		return nombre;
