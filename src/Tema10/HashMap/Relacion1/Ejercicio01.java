@@ -9,7 +9,7 @@ public class Ejercicio01 {
 		Scanner scan = new Scanner(System.in);
 		
 		// Variables
-		int intentos = 0;
+		int intentos = 3;
 		boolean acierto= false;
 		String usuario;
 		String pass;
@@ -18,6 +18,7 @@ public class Ejercicio01 {
 		HashMap<String, String> login = new HashMap<String, String>();
 		
 		login.put("IvanSM", "pass012");
+		login.put("Roberto", "pass013");
 		
 		
 		
@@ -27,16 +28,20 @@ public class Ejercicio01 {
 			System.out.print("Introduzca contraseña: ");
 			pass = scan.next();
 			
-			if(login.containsKey(usuario) && login.containsKey(pass)) {			
+			if(login.containsKey(usuario)) {			
+				if (login.get(usuario).equals(pass)) {
 					acierto = true;
 					System.out.println("Ha accedido al area restringida");
-			}else{
-					intentos ++;
-					System.out.println("Lo siento, no tiene acceso al area restringida");
+				}else{
+				intentos --;
+				System.out.println("Lo siento, no tiene acceso al area restringida " + " te quedan " + intentos + " intentos");
 				}
+		
+			}else {
+				System.out.println("El usuario no existe.");
 			}
 					
-		}while(intentos==3&&!acierto);
+		}while(intentos > 0 && !acierto);
 
 }
 
