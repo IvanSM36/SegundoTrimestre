@@ -54,15 +54,15 @@ public class ArrayList {
 //	   	System.out.println();
 		 
 		
-		/*Con for each
-		 *System.out.println();
-		 *System.out.println("Contenido del ArrayList con for each");
-		 *System.out.println("-------------------------------------");
-		 *for(String color: a) {
-		 *  System.out.println(color);
-		 *}		
-		 *System.out.println();
-		 **/
+//		Con for each
+//		System.out.println();
+//		System.out.println("Contenido del ArrayList con for each");
+//		System.out.println("-------------------------------------");
+//		for(String color: a) {
+//			System.out.println(color);
+//		 }		
+//		 System.out.println();
+
 		 
 		/*Con for normal
 		 * System.out.println("Contenido del ArrayList con for");
