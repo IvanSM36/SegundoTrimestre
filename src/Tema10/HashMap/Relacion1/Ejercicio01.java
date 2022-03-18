@@ -19,9 +19,7 @@ public class Ejercicio01 {
 		
 		login.put("IvanSM", "pass012");
 		login.put("Roberto", "pass013");
-		
-		
-		
+			
 		do {
 			System.out.print("Introduzca usuario: ");
 			usuario = scan.next();

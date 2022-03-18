@@ -7,14 +7,17 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {		
 		
+		// Variables
 		int poscionRandom = 0;
 		int monedaRandom = 0;
 		
+		// Declaro el HashMap para las posiciones
 		HashMap<Integer, String> posicion = new HashMap<Integer, String>();
 		
 		posicion.put(0, "Cara");
 		posicion.put(1, "Cruz");
 	
+		// Declaro el hashMap monedas
 		HashMap<Integer, String> moneda = new HashMap<Integer, String>();	
 
 		moneda.put(0, "1, centimo");
