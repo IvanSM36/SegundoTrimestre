@@ -7,7 +7,7 @@ public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-				
+		int random = 0;
 		HashMap<String, String> miniDiccionario = new HashMap<String, String>();
 
 		miniDiccionario.put("Perro", "Dog");
@@ -25,8 +25,10 @@ public class Ejercicio04 {
 
 		// Muestro 5 palabras del diccionario
 		for (int i = 0; i < 5; i++) {
-			System.out.println();
+			random = (int)(Math.random()*12);
+			System.out.println(miniDiccionario.get(random));
 		}
+		
 		System.out.println();
 		
 		System.out.println("Diccionario bilingue de animales");		

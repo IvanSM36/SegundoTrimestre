@@ -30,7 +30,7 @@ public class Ejercicio03 {
 		if(miniDiccionario.containsKey(animal)) {
 			System.out.println(animal + " en ingles es: " + miniDiccionario.get(animal));
 		}
-		
+		scan.close();
 	}
 
 }
